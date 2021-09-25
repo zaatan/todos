@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Todo's</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Open+Sans" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body onload="todos()">
+<!-- partial:index.partial.html -->
+<nav class='navbar'>
+
+  <ul class='left-ui'>
+    <li><img class='logo'src="https://cdn-icons-png.flaticon.com/512/3600/3600950.png" /></li>
+    <li class='home'>Sandeep's</li>
+    <li>Diary</li>
+   
+  </ul>
+  <ul class='right-ui'>
+    <li class='work'>Workspaces</li>
+    <li class='points'></li>
+    <div class='profile'><div class='background'><i class="fas fa-user"></i></div><i class="fas fa-angle-down arrow"></i></div>
+    <li><i class="fas fa-bell bell"></i></li>
+  </ul>
+</nav>
+<div class='drop-container'>
+  <i class="fas fa-caret-up caret"></i>
+  <ul class='dropdown'>
+  <li>Sandeep S Anand</li>
+    <li>Change Password</li>
+    
+    <li>Settings</li>
+    <li onclick="logout()"> Sign Out</li>
+  </ul>
+</div>
+
+<p class='home-p'>Home</p>
+
+<main class='grid'>
+ 
+  <div class='progress-bar'>
+    <span>Progress List</span>
+   
+  </div>
+  
+  <div class='track'>
+    <div class='top'>
+      <p class='ux'>UX Design</p>
+      
+    </div>
+    <div class='middle'>
+      <h2 class='h2'>Time to get Started!</h2>
+    </div>
+    
+      <ul class='track-classes' id="list" >
+        <li><i class="fas fa-user"></i>Design Thinking Origins</li>
+        <li><i class="fas fa-play"></i>Design Thinking Terms and Practices</li> 
+        <li><i class="fas fa-play"></i>Mindsets vs. Methods</li>
+        
+
+      </ul>
+    <div class='bottom'>
+      <button class='resume-btn'>Success <i class="fas fa-arrow-right"></i></button>
+      <p class='estimate'></p>
+    </div>
+  </div>
+  <!-- <form>
+    <fieldset class="todo-list">
+      <legend class="todo-list__title">My Special Todo List</legend>
+      <label class="todo-list__label">
+        <input type="checkbox" name="" id="" />
+        <i class="check"></i>
+        <span>Make awesome CSS animation</span>
+      </label>
+      <ul class='track-classes' >
+      <label class="todo-list__label">
+        <input type="checkbox" name="" id="" />
+        <i class="check"></i>
+        <span>Watch awesome bangumi</span>
+      </label>
+      </ul>
+      <label class="todo-list__label">
+        <input type="checkbox" name="" id="" />
+        <i class="check"></i>
+        <span>Encounter awesome people</span>
+      </label>
+      <label class="todo-list__label">
+        <input type="checkbox" name="" id="" />
+        <i class="check"></i>
+        <span>Be an awesome man</span>
+      </label>
+    </fieldset>
+  </form> -->
+
+  
+  <script  src="script.js"></script>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
