@@ -22,7 +22,8 @@ body {
 	min-height: 100vh;
 }
 
-.screen {		
+.screen {
+	margin-top: 5%;		
 	background: linear-gradient(90deg, #5D54A4, #7C78B8);		
 	position: relative;	
 	height: 600px;
@@ -89,6 +90,7 @@ body {
 }
 
 .login {
+	
 	width: 320px;
 	padding: 30px;
 	padding-top: 156px;
